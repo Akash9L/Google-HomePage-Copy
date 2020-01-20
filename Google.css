@@ -1,0 +1,361 @@
+body{
+  background-color: #FFFFFF;
+  border: 1px solid transparent;
+  min-width: 980px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+
+}
+.main{
+
+  position: absolute;
+  top:75px;
+  left:0px;
+  right:0px;
+
+  height: 80%;
+  border: 1px solid transparent;
+  min-height: 415px;
+  min-width: 980px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 45px;
+  margin-top: 0px;
+}
+
+
+/* IDEA: navigation pane  */
+header{
+  border: 1px solid transparent;
+  margin:10px;
+  min-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+padding:10px;
+padding-right: 10px;
+font-size: 13px;
+font-family: arial;
+
+}
+header a{
+  padding-left: 10px;
+  padding-right: 10PX;
+}
+header a:link {
+  color: #444444;
+  text-decoration: none;
+}
+
+/* visited link */
+header a:visited {
+  color: #444444;
+
+}
+
+/* mouse over link */
+header a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+/* selected link */
+header a:active {
+  color: grey;
+}
+
+/* IDEA: search */
+
+#searchbar{
+  border: 1px solid #E3E3E3;
+  border-bottom: 1px solid #c8c8c8;
+  //border: 1px solid #c8c8c8;
+  box-shadow: 1px 2px #ededea;
+
+  border-radius: 5px;
+  margin-top:20px;
+  min-height: 45px;
+  min-width: 495px;
+  width: 605px;
+  height:45px;
+  box-shadow: grey;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+#searchbar:hover {
+  border: 1px solid #c8c8c8;
+  border-top: 1px solid #E3E3E3;
+  box-shadow: 1px 4px 8px #E3E3E3;
+}
+
+#searchbar: {
+  border: 1px solid #c8c8c8;
+  border-top: 1px solid #E3E3E3;
+  box-shadow: 1px 2px #E3E3E3;
+}
+/* IDEA: search button and i'm feeling lucky button */
+
+#buttons{
+margin: 25px;
+
+border: 1px solid transparent;
+
+}
+
+
+
+
+#buttons button{
+  margin: 3px;
+  font-weight: bold;
+  font-family: arial;
+  background-color: #F2F2F2;
+  color:grey;
+  border:1px solid transparent;
+  padding-left: 15px;
+  padding-right:15px;
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+#buttons button:hover{
+  cursor: pointer;
+  color:#444444;
+  border: 1px solid #C6C6C6;
+}
+/* IDEA: google apps button   */
+.appDrawer{
+position: relative;
+
+  border: 1px solid transparent;
+height: 20px;
+width: 20px;
+justify-content: center;
+background-color: transparent;
+opacity:0.5;
+}
+
+.appDrawer:hover{
+  opacity:1;
+cursor:pointer;
+}
+
+/* IDEA: squares inside google app button  */
+.c1{
+
+  height:4px;
+  width: 4px;
+  background-color: black;
+  margin-left: 2px;
+}
+
+
+#appDrawertop, #appDrawerbottom, #appDrawermiddle{
+justify-content: center;
+display: flex;
+align-items: center;
+width: 100%;
+border: 1px solid transparent;
+
+}
+
+/* IDEA: sign in button */
+
+#signIn{
+  font-weight: bold;
+  color: white;
+  background-color: #4487FB;
+  border:none;
+  padding:8px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#signIn:hover{
+text-decoration: none;
+color: white;
+}
+#signIn:active{
+  background-color: #186cf4;
+}
+
+/* IDEA: offered languages */
+#languages{
+  font-size: 13px;
+  font-family: arial;
+
+}
+
+#languages a{
+  padding:5px;
+  text-decoration: none;
+}
+
+#languages a:hover{
+  color: #1A0DAB;
+  text-decoration: underline;
+}
+
+#languages a:visited{
+color: #1A0DAB;
+}
+
+#languages a:link{
+color: #1A0DAB;
+}
+
+#languages a:active{
+color: #1A0DAB;
+}
+
+/* IDEA: country Footer and info footer  */
+footer{
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  min-width:980px;
+  min-height:80px;
+
+  border: 1px solid transparent;
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+.foot11, .foot22{
+
+  box-sizing: border-box;
+  padding-left:  27px;
+  padding-right:  27px;
+  padding-top: 10px;
+padding-bottom: 10px;
+border-top: 1px solid #e4e4e4;
+height: 40px;
+font-family: arial;
+font-size: 14px;
+color:rgba(0,0,0,.54);
+}
+
+
+
+footer .left{position: absolute;
+  bottom:14px;
+
+text-align: left;
+}
+
+footer .right{
+
+  text-align:right;
+}
+
+
+footer a{
+padding-right: 20px;
+}
+footer a:link {
+color:#5F6368;
+  text-decoration: none;
+}
+
+/* visited link */
+footer a:visited {
+ color:#5F6368;
+
+}
+
+/* mouse over link */
+footer a:hover {
+ color:#5F6368;
+  text-decoration: underline;
+}
+
+/* selected link */
+footer a:active {
+ color:#5F6368;
+}
+
+
+
+/* IDEA: MIC LOGO on search bar */
+
+#searchbarWithMic{
+  border: 1px solid transparent;
+position: relative;
+}
+
+.logo{position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 5px;
+  padding: 5px;
+  height: 27px;
+  width:27px;
+  display: flex;
+  justify-content:  center;
+  align-content: center;
+  background-color: white;
+
+border: 1px solid transparent;
+}
+.logo:hover{
+
+  cursor: pointer;
+}
+
+.topCircle{
+  position: absolute;
+  top:23%;
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+  background-color: #4285F4;
+}
+.bottomCircle{
+  position: absolute;
+  top:45%;
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+  background-color: #4285F4;
+
+}
+
+.square{
+  position: absolute;
+  top:35%;
+  height: 15%;
+  width: 15%;
+  background-color: #4285F4;
+}
+
+.semiCircle{
+  position: absolute;
+  top:35%;
+  height: 28%;
+  width: 28%;
+  border-right: 2px solid #EA4335;
+  border-bottom: 2px solid #EA4335;
+  border-radius: 50%;
+  border-left:2px solid transparent;
+  border-top: 2px solid transparent;
+transform: rotate(45deg);
+
+}
+
+.stick{
+  position: absolute;
+  top: 68%;
+  height:15%;
+  width:5%;
+  background-color: #34A853;
+
+}
